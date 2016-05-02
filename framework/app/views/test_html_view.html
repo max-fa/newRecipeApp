@@ -1,0 +1,33 @@
+<div id="create-recipe-form-container" style="display: none;">
+	<form id="create-recipe-form" submit-create-recipe>
+			<h3>Create a Recipe</h3>
+			<label for="create-recipe-title">Enter recipe title:</label>
+			<input type="text" id="create-recipe-title" name="title" ng-model="recipe.title" required>
+			<br>
+			<br>
+			<label for="ingredients">Enter recipe ingredients:</label>
+			<textarea cols="35" rows="10" id="ingredients" name="ingredients" ng-model="recipe.ingredients" required></textarea>
+			<p>*Please use commas when entering recipe,once added the recipe ingredients will be displayed as you wrote them.</p>
+			<br>
+			<br>
+			<p><label for="instructions">Enter recipe instructions below.</label></p>
+			<textarea cols="55" rows="10" id="instructions" name="instructions" ng-model="recipe.instructions" required></textarea>
+			<br>
+			<br>
+			<p><label for="column">Choose under which classification this recipe will be placed under.</label></p>
+			<label for="bread-checkbox">Breads</label>
+			<input type="radio" id="bread-checkbox" value=3 class="check" name="category" ng-model="recipe.category" required>
+			<label for="meatCheckBox">Meat & Fish</label>
+			<input type="radio" id="meat-checkbox" value=1 class="check" name="category" ng-model="recipe.category" required>
+			<label for="veggieCheckBox">Vegetable-based</label>
+			<input type="radio" id="veggie-checkbox" value=2 class="check" name="category" ng-model="recipe.category" required>
+			<br>
+			<br>
+			<span><button type="submit" id="submit-create-recipe">Submit</button></span>
+			<span><button type="reset">Reset Form</button></span>
+			<span><button type="button" id="exit-create-recipe-form" exit-create-recipe-form>Exit Form</button></span>
+			<br>
+			<br>
+	</form>	
+	<p>{{recipe}}</p>
+</div>

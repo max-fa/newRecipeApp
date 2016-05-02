@@ -1,0 +1,116 @@
+body {
+	background-color: white;
+}
+
+.nav-item {
+	display: inline;
+	margin-left: 123px;
+}
+
+#add-recipe-button {
+}
+
+#title {
+	text-align: center;
+}
+
+.list {
+	padding-top: 40px;
+	padding-left: 135px;
+	display: inline-block;
+}
+
+.list-header {
+	margin-bottom: 20px;
+	font-weight: bold;
+}
+
+#ui-tools {
+	margin-top: 25px;
+}
+
+#add-recipe-div {
+	text-align: right;
+	margin-top: 15px;
+}
+
+#login-form-container {
+	display: none;
+}
+
+.recipe {
+	
+}
+
+button {
+	background: #3498db;
+	background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+	background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+	background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+	background-image: -o-linear-gradient(top, #3498db, #2980b9);
+	background-image: linear-gradient(to bottom, #3498db, #2980b9);
+	-webkit-border-radius: 28;
+	-moz-border-radius: 28;
+	border-radius: 28px;
+	font-family: Arial;
+	color: #ffffff;
+	font-size: 15px;
+	padding: 3px 4px 3px 4px;
+	text-decoration: none;	
+}
+
+button:hover {
+	background: #3cb0fd;
+	background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+	background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+	background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+	background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+	background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+	text-decoration: none;
+}
+
+#search-prompt {
+	background: #3498db;
+	background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+	background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+	background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+	background-image: -o-linear-gradient(top, #3498db, #2980b9);
+	background-image: linear-gradient(to bottom, #3498db, #2980b9);
+	-webkit-border-radius: 28;
+	-moz-border-radius: 28;
+	border-radius: 28px;
+	font-family: Arial;
+	color: #ffffff;
+	font-size: 15px;
+	padding: 1px 4px 3px 4px;
+	text-decoration: none;		
+}
+
+#recipe-filter-prompt {
+	background: #3498db;
+	background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+	background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+	background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+	background-image: -o-linear-gradient(top, #3498db, #2980b9);
+	background-image: linear-gradient(to bottom, #3498db, #2980b9);
+	-webkit-border-radius: 28;
+	-moz-border-radius: 28;
+	border-radius: 28px;
+	font-family: Arial;
+	color: #ffffff;
+	font-size: 15px;
+	padding: 0 4px 3px 4px;
+	text-decoration: none;	
+}
+
+#delete-recipe-button {
+	background: #e60000;
+}
+
+#delete-recipe-button:hover {
+	background: #ff1a1a;
+}
+
+a:visited {
+	color:blue;
+}
